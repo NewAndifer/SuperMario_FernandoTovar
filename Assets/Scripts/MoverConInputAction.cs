@@ -12,12 +12,15 @@ public class MoverConInputAction : MonoBehaviour
 
     private Rigidbody2D rb;
 
+    private EstadoPersonaje estado;
+
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
         accionMover.Enable();
         rb = GetComponent<Rigidbody2D>();
+        estado = GetComponentInChildren<EstadoPersonaje>();
     }
 
     void OnEnable(){
@@ -31,7 +34,9 @@ public class MoverConInputAction : MonoBehaviour
     }
 
     public void saltar(InputAction.CallbackContext context){
-        rb.linearVelocityY = velocidadY * 1;
+        if(estado.estaEnPiso){
+            rb.linearVelocityY = velocidadY * 1;
+        }
     }
 
     // Update is called once per frame
