@@ -8,7 +8,7 @@ public class MoverConInputAction : MonoBehaviour
     [SerializeField]
     private InputAction accionSaltar; 
     private float velocidadX = 5f;
-    private float velocidadY = 5f;
+    private float velocidadY = 6f;
 
     private Rigidbody2D rb;
 
@@ -39,12 +39,10 @@ public class MoverConInputAction : MonoBehaviour
         }
     }
 
-    // Update is called once per frame
-    void Update()
+
+    void FixedUpdate()
     {
         Vector2 movimiento = accionMover.ReadValue<Vector2>();
-        
-        //transform.position = (Vector2)transform.position + movimiento*velocidadX*Time.deltaTime;
         rb.linearVelocityX = movimiento.x * velocidadX;
     }
 }
