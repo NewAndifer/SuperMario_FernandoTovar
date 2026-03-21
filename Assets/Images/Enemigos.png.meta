@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: b6a99e889dea34f2db4198176fa191dc
+guid: fcdde659feeba45328f2b17656e5a438
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -8814829652806221306
-    second: SMB Recorte1_0
+      213: -8283504241884404996
+    second: Enemigos_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -37,7 +37,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -48,10 +48,10 @@ TextureImporter:
   compressionQuality: 50
   spriteMode: 2
   spriteExtrude: 1
-  spriteMeshType: 1
+  spriteMeshType: 0
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 32
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -113,23 +113,45 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: SMB Recorte1_0
+      name: Enemigos_0
       rect:
         serializedVersion: 2
         x: 0
-        y: 0
-        width: 135
-        height: 151
+        y: 62
+        width: 16
+        height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 602c7ec322f6ba580800000000000000
-      internalID: -8814829652806221306
+      spriteID: cf2e907a7c41b0d80800000000000000
+      internalID: -8283504241884404996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemigos_1
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 62
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c40a17ca6a3c14fbda7bc37d1c4d1ec1
+      internalID: -1903663534
       vertices: []
       indices: 
       edges: []
@@ -138,7 +160,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 8eb1d0e4cdb354e30b8fe1fd4771979f
     internalID: 0
     vertices: []
     indices: 
@@ -146,9 +168,26 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     spriteCustomMetadata:
-      entries: []
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":16.0,"y":16.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":2.0,"y":2.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":1,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
-      SMB Recorte1_0: -8814829652806221306
+      Enemigos_0: -8283504241884404996
+      Enemigos_1: -1903663534
+      Enemigos_10: 122182754
+      Enemigos_11: -561137482
+      Enemigos_12: -1729394675
+      Enemigos_13: -1423892477
+      Enemigos_14: 1490643484
+      Enemigos_15: -197793783
+      Enemigos_2: -49989500
+      Enemigos_3: 950252613
+      Enemigos_4: 1679763580
+      Enemigos_5: -697783037
+      Enemigos_6: 728141276
+      Enemigos_7: -794203460
+      Enemigos_8: 1442717064
+      Enemigos_9: -1594390554
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

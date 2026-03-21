@@ -1,25 +1,7 @@
 fileFormatVersion: 2
-guid: d577910ec924c4709b62083f33aebfa5
+guid: ca69acc38b5784dd6b8300a32482daf4
 TextureImporter:
-  internalIDToNameTable:
-  - first:
-      213: -7049103514410413297
-    second: personajes_0
-  - first:
-      213: 546624286021485963
-    second: personajes_1
-  - first:
-      213: 921939107963088460
-    second: personajes_2
-  - first:
-      213: -1247894018666553155
-    second: personajes_3
-  - first:
-      213: -3447738649475369362
-    second: personajes_4
-  - first:
-      213: -2379475321107421134
-    second: personajes_5
+  internalIDToNameTable: []
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -128,133 +110,221 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: personajes_0
+      name: SMB Recorte3_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 17
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dcdac26ebc04648039db56dbaada64ea
+      internalID: -1354490049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMB Recorte3_1
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 17
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc4e1498d513f429a8d3a792d19fbe15
+      internalID: -1237403450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMB Recorte3_2
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 17
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9de4e114a2894953b97f44268459e6b
+      internalID: -82581009
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMB Recorte3_3
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 17
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 395f3a7d5ff464ec6b3f97770a26d415
+      internalID: 1246004508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMB Recorte3_4
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 17
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6477696a2785442729e704dad1686833
+      internalID: -2099627301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMB Recorte3_5
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 17
-        height: 32
+        width: 16
+        height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: f031c9e83bd8c2e90800000000000000
-      internalID: -7049103514410413297
+      spriteID: 88ebaa3d43d244ed5928f2cc201301d5
+      internalID: 1805403111
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: personajes_1
+      name: SMB Recorte3_6
       rect:
         serializedVersion: 2
-        x: 15
+        x: 17
         y: 0
-        width: 18
-        height: 32
+        width: 16
+        height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: b8589e954eff59700800000000000000
-      internalID: 546624286021485963
+      spriteID: d9e54acde7a1d4a08af0e680fc0530b2
+      internalID: -1923438440
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: personajes_2
+      name: SMB Recorte3_7
       rect:
         serializedVersion: 2
-        x: 31
+        x: 34
         y: 0
-        width: 18
-        height: 32
+        width: 16
+        height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: c4e2eaaebb26bcc00800000000000000
-      internalID: 921939107963088460
+      spriteID: a6db562f55ac349ac845551a716c4640
+      internalID: -1464820084
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: personajes_3
+      name: SMB Recorte3_8
       rect:
         serializedVersion: 2
-        x: 47
+        x: 51
         y: 0
-        width: 18
-        height: 32
+        width: 16
+        height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: db0ab0c60079eaee0800000000000000
-      internalID: -1247894018666553155
+      spriteID: ef62a94aa42994e249e109f260381a6a
+      internalID: -78320626
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: personajes_4
+      name: SMB Recorte3_9
       rect:
         serializedVersion: 2
-        x: 63
+        x: 68
         y: 0
-        width: 18
-        height: 32
+        width: 16
+        height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: e66b2a717fb2720d0800000000000000
-      internalID: -3447738649475369362
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: personajes_5
-      rect:
-        serializedVersion: 2
-        x: 79
-        y: 0
-        width: 17
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 238659d6dc76afed0800000000000000
-      internalID: -2379475321107421134
+      spriteID: 129aa12d1a55644e3af415147c477d59
+      internalID: -1564879372
       vertices: []
       indices: 
       edges: []
@@ -263,7 +333,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 02fa360b8790a4ab49290e78c22ea506
     internalID: 0
     vertices: []
     indices: 
@@ -271,14 +341,20 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     spriteCustomMetadata:
-      entries: []
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":16.0,"y":16.0},"gridSpriteOffset":{"x":0.0,"y":17.0},"gridSpritePadding":{"x":1.0,"y":2.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":2,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":1,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
-      personajes_0: -7049103514410413297
-      personajes_1: 546624286021485963
-      personajes_2: 921939107963088460
-      personajes_3: -1247894018666553155
-      personajes_4: -3447738649475369362
-      personajes_5: -2379475321107421134
+      SMB Recorte3_0: -1354490049
+      SMB Recorte3_1: -1237403450
+      SMB Recorte3_2: -82581009
+      SMB Recorte3_3: 1246004508
+      SMB Recorte3_4: -2099627301
+      SMB Recorte3_5: 1805403111
+      SMB Recorte3_6: -1923438440
+      SMB Recorte3_7: -1464820084
+      SMB Recorte3_8: -78320626
+      SMB Recorte3_9: -1564879372
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
