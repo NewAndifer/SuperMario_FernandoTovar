@@ -3,12 +3,12 @@
     <ui:VisualElement name="Menu" class="menu">
         <ui:Label text="Tarea Unity&#10;" name="Titulo" class="titulo"/>
         <ui:VisualElement name="ContenedorBotones" class="botones contenedorBotones" style="border-top-left-radius: 20px; border-top-right-radius: 20px; border-bottom-left-radius: 20px; border-bottom-right-radius: 20px;">
-            <ui:Button text="Ayuda" name="BotonAyuda" class="botonAyuda" style="width: 300px; height: 200px;"/>
             <ui:Button text="Jugar" name="BotonJugar" class="botonJugar"/>
+            <ui:Button text="Ayuda" name="BotonAyuda" class="botonAyuda" style="width: 300px; height: 200px;"/>
             <ui:Button text="Créditos" name="BotonCreditos" class="botonCreditos"/>
         </ui:VisualElement>
         <ui:VisualElement name="ContenedorSalir" class="contenedorSalir">
-            <ui:Button text="" name="BotonSalir" class="botones botonSalir" style="width: 80px; height: 80px;"/>
+            <ui:Button text="&#10;" name="BotonSalir" class="botones botonSalir" style="width: 80px; height: 80px;"/>
             <ui:Label text="Fernando Tovar Mejia A01666534" name="TextoNombre" class="textoNombre" style="color: rgb(255, 255, 255); -unity-font-definition: url(&quot;project://database/Library/unity%20default%20resources?fileID=10102&amp;guid=0000000000000000e000000000000000&amp;type=0#LegacyRuntime&quot;);"/>
         </ui:VisualElement>
     </ui:VisualElement>
