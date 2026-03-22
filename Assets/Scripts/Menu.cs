@@ -16,9 +16,14 @@ public class Menu : MonoBehaviour
         menu = GetComponent<UIDocument>();
         var root = menu.rootVisualElement;
         BotonJugar = root.Q<Button>("BotonJugar");
+        BotonAyuda = root.Q<Button>("BotonAyuda");
+        BotonCreditos = root.Q<Button>("BotonCreditos");
+        BotonSalir = root.Q<Button>("BotonSalir");
 
         BotonJugar.clicked += abrirJugar;
-
+        BotonAyuda.clicked += abrirAyuda;
+        BotonCreditos.clicked += abrirCreditos;
+        BotonSalir.clicked += abrirSalir;
 
     }
     private void abrirJugar()
@@ -26,9 +31,25 @@ public class Menu : MonoBehaviour
         SceneManager.LoadScene("Juego");
     }
 
+    private void abrirAyuda()
+    {
+        SceneManager.LoadScene("Ayuda");
+    }
+
+    private void abrirCreditos()
+    {
+        SceneManager.LoadScene("Creditos");
+    }
+
+    private void abrirSalir()
+    {
+        Application.Quit();
+    }
+
     void OnDisable()
     {
          BotonJugar.clicked -= abrirJugar;
+
         
     }
 }

@@ -1,0 +1,48 @@
+:root {
+}
+
+.menu {
+    align-self: center;
+    width: 100%;
+    height: 100%;
+    justify-content: space-evenly;
+}
+
+.titulo {
+    width: 75%;
+    align-items: center;
+    justify-content: center;
+    align-self: center;
+    font-size: 70px;
+    -unity-text-align: middle-center;
+    -unity-font-style: bold;
+    background-color: rgba(0, 0, 0, 0.29);
+    padding-top: 30px;
+    padding-right: 30px;
+    padding-bottom: 30px;
+    padding-left: 30px;
+    border-top-left-radius: 40px;
+    border-top-right-radius: 40px;
+    border-bottom-right-radius: 40px;
+    border-bottom-left-radius: 40px;
+}
+
+.texto {
+    font-size: 50px;
+    white-space: pre-wrap;
+    -unity-text-align: upper-center;
+    width: 75%;
+    align-items: center;
+    justify-content: flex-end;
+    align-self: center;
+    align-content: center;
+    background-color: rgba(0, 0, 0, 0.29);
+    border-top-left-radius: 40px;
+    border-top-right-radius: 40px;
+    border-bottom-right-radius: 40px;
+    border-bottom-left-radius: 40px;
+    padding-top: 30px;
+    padding-right: 30px;
+    padding-bottom: 30px;
+    padding-left: 30px;
+}

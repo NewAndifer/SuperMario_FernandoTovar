@@ -1,0 +1,7 @@
+<ui:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI/MenuAyuda.uss?fileID=7433441132597879392&amp;guid=ecd04bece1f39499fa2422eac5889fa2&amp;type=3#MenuAyuda"/>
+    <ui:VisualElement name="Menu" class="menu" style="flex-grow: 1;">
+        <ui:Label text="Ayuda" name="Titulo" class="titulo"/>
+        <ui:Label text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut tempus ligula vel dui laoreet, non euismod velit commodo. Ut faucibus libero sed leo dignissim, non efficitur mi pulvinar. Suspendisse rhoncus condimentum aliquam. Cras at tortor malesuada, scelerisque tellus vitae, bibendum velit. Maecenas mollis viverra metus, vel condimentum odio varius et. Nullam sed odio varius, mollis odio ut, tincidunt dolor. Aliquam pulvinar varius tellus fringilla rhoncus. Integer et sollicitudin tortor. Vestibulum aliquet aliquam nulla, auctor scelerisque dui fringilla a.&#10;" name="Texto" class="texto"/>
+    </ui:VisualElement>
+</ui:UXML>
