@@ -1,3 +1,8 @@
+/*
+Fernando Tovar Mejia
+A01666534
+21/03/2026
+*/
 using UnityEngine;
 using UnityEngine.InputSystem;
 
@@ -11,13 +16,11 @@ public class MoverConInputAction : MonoBehaviour
     private float velocidadY = 6f;
 
     private Rigidbody2D rb;
-
     private EstadoPersonaje estado;
 
-
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
+        // Habilitamos la acción de movimiento y obtenemos componentes requeridos
         accionMover.Enable();
         rb = GetComponent<Rigidbody2D>();
         estado = GetComponentInChildren<EstadoPersonaje>();
@@ -28,9 +31,11 @@ public class MoverConInputAction : MonoBehaviour
         accionSaltar.performed += saltar;
     }
 
-    void OnDisable(){
-        accionSaltar.Disable();
+    void OnDisable()
+    {
+        // Deshabilitar la acción al desactivar el componente
         accionSaltar.performed -= saltar;
+        accionSaltar.Disable();
     }
 
     public void saltar(InputAction.CallbackContext context){
@@ -39,9 +44,9 @@ public class MoverConInputAction : MonoBehaviour
         }
     }
 
-
     void FixedUpdate()
     {
+        // Leer entrada de movimiento y aplicar velocidad horizontal
         Vector2 movimiento = accionMover.ReadValue<Vector2>();
         rb.linearVelocityX = movimiento.x * velocidadX;
     }

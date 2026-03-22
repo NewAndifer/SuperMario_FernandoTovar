@@ -1,3 +1,8 @@
+/*
+Fernando Tovar Mejia
+A01666534
+21/03/2026
+*/
 using UnityEngine;
 
 public class MovimientoGoomba : MonoBehaviour
@@ -11,8 +16,9 @@ public class MovimientoGoomba : MonoBehaviour
     private float posicionActual;
     private float xMin;
     private float xMax;
-    private float umbral = 0.01f;
+    private float umbral = 0.01f; // umbral para el cambio de direccion
 
+// Inicializacion de variables y calculo de limites
     void Start()
     {
         posXInicial = transform.position.x;
@@ -20,14 +26,14 @@ public class MovimientoGoomba : MonoBehaviour
 
         xMin = posXInicial - distanciaCaminada;
         xMax = posXInicial + distanciaCaminada;
-
     }
 
     void FixedUpdate()
     {
+        // Actualizar posición actual antes de aplicar movimiento/comprobaciones
         posicionActual = transform.position.x;
         rb.linearVelocityX = velocidadX * direccion;
-
+        // Comprobar si se ha alcanzado el límite derecho o izquierdo y cambiar dirección
         if(posicionActual >= xMax - umbral && direccion == 1f){
             direccion *= -1f;
         }

@@ -1,8 +1,15 @@
+/*
+Fernando Tovar Mejia
+A01666534
+21/03/2026
+*/
 using UnityEngine;
 
 public class EstadoPersonaje : MonoBehaviour
 {
-    public bool estaEnPiso {get; private set;} = false;
+    //Detecta si el personaje está en el suelo usando un Collider2D marcado como trigger
+     
+    public bool estaEnPiso { get; private set; } = false;
 
     void Start(){
         print("Inicia EstadoPersonaje");
@@ -17,5 +24,4 @@ public class EstadoPersonaje : MonoBehaviour
         estaEnPiso = false;
         print(estaEnPiso);
     }
-
 }

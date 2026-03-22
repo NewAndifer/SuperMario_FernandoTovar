@@ -1,3 +1,8 @@
+/*
+Fernando Tovar Mejia
+A01666534
+21/03/2026
+*/
 using UnityEngine.UIElements;
 using UnityEngine;
 using UnityEngine.SceneManagement;
@@ -9,10 +14,10 @@ public class Menu : MonoBehaviour
     private Button BotonAyuda;
     private Button BotonCreditos;
     private Button BotonSalir;
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
 
     void OnEnable()
     {
+        // Obtener el UIDocument y los botones
         menu = GetComponent<UIDocument>();
         var root = menu.rootVisualElement;
         BotonJugar = root.Q<Button>("BotonJugar");
@@ -26,6 +31,8 @@ public class Menu : MonoBehaviour
         BotonSalir.clicked += abrirSalir;
 
     }
+
+    // Callbacks de botones, cada uno carga una escena diferente o cierra la aplicación
     private void abrirJugar()
     {
         SceneManager.LoadScene("Juego");
@@ -48,8 +55,9 @@ public class Menu : MonoBehaviour
 
     void OnDisable()
     {
-         BotonJugar.clicked -= abrirJugar;
-
-        
+        BotonJugar.clicked -= abrirJugar;
+        BotonAyuda.clicked -= abrirAyuda;
+        BotonCreditos.clicked -= abrirCreditos;
+        BotonSalir.clicked -= abrirSalir;
     }
 }
